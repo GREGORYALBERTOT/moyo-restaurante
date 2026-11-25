@@ -1,0 +1,29 @@
+{
+  "name": "moyo-gestion-restaurante",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "api": "node scripts/api-server.mjs",
+    "check": "tsc --noEmit",
+    "test": "node scripts/test.mjs"
+  },
+  "dependencies": {
+    "@neon/auth": "^0.8.2",
+    "@neondatabase/serverless": "^1.2.1",
+    "jose": "^6.2.18",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "ws": "^8.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/ws": "^8.18.2",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.8.0"
+  }
+}
